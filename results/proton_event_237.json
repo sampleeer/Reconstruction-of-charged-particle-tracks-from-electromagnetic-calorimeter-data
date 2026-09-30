@@ -1,0 +1,57 @@
+{
+  "event_id": 237.0,
+  "selected_branches": 0,
+  "projection_iou_xz": 0.9166666666666666,
+  "projection_iou_yz": 1.0,
+  "pairing_candidates": 1,
+  "energy_fit": {
+    "success": true,
+    "voxels": 22,
+    "xz_mse": 0.00027492539777797064,
+    "yz_mse": 0.00022139593101907544,
+    "xz_total": 4.4807089231,
+    "yz_total": 3.1122888
+  },
+  "transport_fit": {
+    "nonzero_voxels": 24,
+    "skipped_one_view_layers": [],
+    "xz_mse_raw": 0.000217601502370133,
+    "yz_mse_raw": 0.00028159784519591225
+  },
+  "models": [
+    {
+      "branches": 0,
+      "projection_chamfer": 0.020833333333333332,
+      "selection_score": 0.020833333333333332,
+      "evaluations": 900
+    },
+    {
+      "branches": 1,
+      "projection_chamfer": 0.020833333333333332,
+      "selection_score": 0.17083333333333334,
+      "evaluations": 1440
+    },
+    {
+      "branches": 2,
+      "projection_chamfer": 0.020833333333333332,
+      "selection_score": 0.3208333333333333,
+      "evaluations": 1980
+    },
+    {
+      "branches": 3,
+      "projection_chamfer": 0.020833333333333332,
+      "selection_score": 0.47083333333333327,
+      "evaluations": 2520
+    },
+    {
+      "branches": 4,
+      "projection_chamfer": 0.020833333333333332,
+      "selection_score": 0.6208333333333333,
+      "evaluations": 3060
+    }
+  ],
+  "evaluation_uses_truth": true,
+  "paired_plane_hit_iou": 0.8148148148148148,
+  "transport_paired_plane_hit_iou": 0.8214285714285714,
+  "truth_hit_count": 27
+}

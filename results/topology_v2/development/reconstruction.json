@@ -1,0 +1,1314 @@
+[
+  {
+    "kind": "proton",
+    "event_id": 3019,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "no_vertex",
+    "hypotheses": [],
+    "vertex_proposal_count": 0,
+    "v1_iou44": 0.4470588235294118,
+    "v2_iou44": 0.0,
+    "v1_vertex_error_mm": 7.461868719031343,
+    "hybrid_iou44": 0.4470588235294118
+  },
+  {
+    "kind": "proton",
+    "event_id": 2241,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "insufficient_connected_tracks",
+    "hypotheses": [],
+    "vertex_proposal_count": 1,
+    "v1_iou44": 0.5180722891566265,
+    "v2_iou44": 0.0,
+    "v1_vertex_error_mm": 6.052775135229727,
+    "hybrid_iou44": 0.5180722891566265
+  },
+  {
+    "kind": "proton",
+    "event_id": 2594,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "no_vertex",
+    "hypotheses": [],
+    "vertex_proposal_count": 0,
+    "v1_iou44": 0.22448979591836735,
+    "v2_iou44": 0.0,
+    "v1_vertex_error_mm": 33.79168287299886,
+    "hybrid_iou44": 0.22448979591836735
+  },
+  {
+    "kind": "proton",
+    "event_id": 5513,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "no_vertex",
+    "hypotheses": [],
+    "vertex_proposal_count": 0,
+    "v1_iou44": 0.008620689655172414,
+    "v2_iou44": 0.0,
+    "v1_vertex_error_mm": 40.60406344751717,
+    "hybrid_iou44": 0.008620689655172414
+  },
+  {
+    "kind": "proton",
+    "event_id": 8756,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "no_vertex",
+    "hypotheses": [],
+    "vertex_proposal_count": 0,
+    "v1_iou44": 0.42105263157894735,
+    "v2_iou44": 0.0,
+    "v1_vertex_error_mm": 8.244375112766281,
+    "hybrid_iou44": 0.42105263157894735
+  },
+  {
+    "kind": "proton",
+    "event_id": 195,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "ok",
+    "hypotheses": [
+      {
+        "vertex_mm": [
+          -1.1945680212613468,
+          -46.60757056753568,
+          26.360262972856994
+        ],
+        "segments": [
+          [
+            [
+              -24.567009300271323,
+              -82.38454058508445,
+              0.0
+            ],
+            [
+              -1.1945680212613468,
+              -46.60757056753568,
+              26.360262972856994
+            ]
+          ],
+          [
+            [
+              -1.1945680212613468,
+              -46.60757056753568,
+              26.360262972856994
+            ],
+            [
+              83.19695784891495,
+              110.07907768245875,
+              121.53999999999999
+            ]
+          ],
+          [
+            [
+              -1.1945680212613468,
+              -46.60757056753568,
+              26.360262972856994
+            ],
+            [
+              -31.55547192213036,
+              -40.5353897873619,
+              48.73
+            ]
+          ]
+        ],
+        "x_source_track_ids": [
+          0,
+          1
+        ],
+        "y_source_track_ids": [
+          0,
+          1
+        ],
+        "success": true,
+        "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "normalized_energy_residual": 0.5407668611459282,
+        "normalized_objective": 0.5579998404430089,
+        "smoothness": 0.3,
+        "ridge": 0.001,
+        "deposited_energy_MeV": 9.196608621003909,
+        "measured_energy_MeV": 13.24803045089672,
+        "forward_operator_error": 0.0
+      },
+      {
+        "vertex_mm": [
+          -1.1945680212613468,
+          -46.60757056753568,
+          26.360262972856994
+        ],
+        "segments": [
+          [
+            [
+              -24.567009300271323,
+              -82.38454058508445,
+              0.0
+            ],
+            [
+              -1.1945680212613468,
+              -46.60757056753568,
+              26.360262972856994
+            ]
+          ],
+          [
+            [
+              -1.1945680212613468,
+              -46.60757056753568,
+              26.360262972856994
+            ],
+            [
+              81.17538597874756,
+              -21.39028719156468,
+              119.25999999999999
+            ]
+          ],
+          [
+            [
+              -1.1945680212613468,
+              -46.60757056753568,
+              26.360262972856994
+            ],
+            [
+              -130.37547192213043,
+              110.07907768245875,
+              121.53999999999999
+            ]
+          ]
+        ],
+        "x_source_track_ids": [
+          0,
+          1
+        ],
+        "y_source_track_ids": [
+          1,
+          0
+        ],
+        "success": true,
+        "solver_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "normalized_energy_residual": 0.5271602966873046,
+        "normalized_objective": 0.573248561620722,
+        "smoothness": 0.3,
+        "ridge": 0.001,
+        "deposited_energy_MeV": 9.491367095432164,
+        "measured_energy_MeV": 13.24803045089672,
+        "forward_operator_error": 5.551115123125783e-17
+      }
+    ],
+    "vertex_proposal_count": 1,
+    "v1_iou44": 0.0,
+    "v2_iou44": 0.38571428571428573,
+    "v1_vertex_error_mm": 30.86665534651268,
+    "v2_vertex_error_mm": 1.1842081461713425,
+    "hybrid_iou44": 0.38571428571428573
+  },
+  {
+    "kind": "proton",
+    "event_id": 5438,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "no_vertex",
+    "hypotheses": [],
+    "vertex_proposal_count": 0,
+    "v1_iou44": 0.0,
+    "v2_iou44": 0.0,
+    "v1_vertex_error_mm": 93.51167030066354,
+    "hybrid_iou44": 0.0
+  },
+  {
+    "kind": "proton",
+    "event_id": 7025,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "insufficient_connected_tracks",
+    "hypotheses": [],
+    "vertex_proposal_count": 1,
+    "v1_iou44": 0.37681159420289856,
+    "v2_iou44": 0.0,
+    "v1_vertex_error_mm": 2.3053491518091147,
+    "hybrid_iou44": 0.37681159420289856
+  },
+  {
+    "kind": "proton",
+    "event_id": 10,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "insufficient_connected_tracks",
+    "hypotheses": [],
+    "vertex_proposal_count": 1,
+    "v1_iou44": 0.4090909090909091,
+    "v2_iou44": 0.0,
+    "v1_vertex_error_mm": 25.757558115823013,
+    "hybrid_iou44": 0.4090909090909091
+  },
+  {
+    "kind": "proton",
+    "event_id": 132,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "no_vertex",
+    "hypotheses": [],
+    "vertex_proposal_count": 0,
+    "v1_iou44": 0.11214953271028037,
+    "v2_iou44": 0.0,
+    "v1_vertex_error_mm": 101.00523086741596,
+    "hybrid_iou44": 0.11214953271028037
+  },
+  {
+    "kind": "antiproton",
+    "event_id": 4501,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "ok",
+    "hypotheses": [
+      {
+        "vertex_mm": [
+          72.10766183400347,
+          -60.93202802062086,
+          123.68120100173286
+        ],
+        "segments": [
+          [
+            [
+              96.62613311752241,
+              -66.0195770320772,
+              0.0
+            ],
+            [
+              72.10766183400347,
+              -60.93202802062086,
+              123.68120100173286
+            ]
+          ],
+          [
+            [
+              72.10766183400347,
+              -60.93202802062086,
+              123.68120100173286
+            ],
+            [
+              61.7578275130375,
+              -97.12198328483156,
+              175.89
+            ]
+          ],
+          [
+            [
+              72.10766183400347,
+              -60.93202802062086,
+              123.68120100173286
+            ],
+            [
+              70.02615628395,
+              -58.78445165831472,
+              175.89
+            ]
+          ]
+        ],
+        "x_source_track_ids": [
+          0,
+          2
+        ],
+        "y_source_track_ids": [
+          2,
+          0
+        ],
+        "success": true,
+        "solver_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "normalized_energy_residual": 0.473850935061072,
+        "normalized_objective": 0.5398390986384499,
+        "smoothness": 0.3,
+        "ridge": 0.001,
+        "deposited_energy_MeV": 7.853941639451388,
+        "measured_energy_MeV": 12.4294713201,
+        "forward_operator_error": 0.0
+      },
+      {
+        "vertex_mm": [
+          72.10766183400347,
+          -60.93202802062086,
+          123.68120100173286
+        ],
+        "segments": [
+          [
+            [
+              96.62613311752241,
+              -66.0195770320772,
+              0.0
+            ],
+            [
+              72.10766183400347,
+              -60.93202802062086,
+              123.68120100173286
+            ]
+          ],
+          [
+            [
+              72.10766183400347,
+              -60.93202802062086,
+              123.68120100173286
+            ],
+            [
+              61.7578275130375,
+              -58.78445165831472,
+              175.89
+            ]
+          ],
+          [
+            [
+              72.10766183400347,
+              -60.93202802062086,
+              123.68120100173286
+            ],
+            [
+              70.02615628395,
+              -97.12198328483156,
+              175.89
+            ]
+          ]
+        ],
+        "x_source_track_ids": [
+          0,
+          2
+        ],
+        "y_source_track_ids": [
+          0,
+          2
+        ],
+        "success": true,
+        "solver_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "normalized_energy_residual": 0.4782869890948394,
+        "normalized_objective": 0.543858479656427,
+        "smoothness": 0.3,
+        "ridge": 0.001,
+        "deposited_energy_MeV": 7.8650190820170325,
+        "measured_energy_MeV": 12.4294713201,
+        "forward_operator_error": 0.0
+      }
+    ],
+    "vertex_proposal_count": 1,
+    "v1_iou44": 0.3763440860215054,
+    "v2_iou44": 0.23478260869565218,
+    "v1_vertex_error_mm": 75.81341911218621,
+    "v2_vertex_error_mm": 27.071964144624914,
+    "hybrid_iou44": 0.23478260869565218
+  },
+  {
+    "kind": "antiproton",
+    "event_id": 5428,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "ok",
+    "hypotheses": [
+      {
+        "vertex_mm": [
+          -60.43042633737619,
+          93.30013430488341,
+          126.09629587322871
+        ],
+        "segments": [
+          [
+            [
+              -13.649788397839785,
+              91.0675627488266,
+              0.0
+            ],
+            [
+              -60.43042633737619,
+              93.30013430488341,
+              126.09629587322871
+            ]
+          ],
+          [
+            [
+              -60.43042633737619,
+              93.30013430488341,
+              126.09629587322871
+            ],
+            [
+              16.642135795780717,
+              72.77675245111703,
+              70.72
+            ]
+          ],
+          [
+            [
+              -60.43042633737619,
+              93.30013430488341,
+              126.09629587322871
+            ],
+            [
+              -78.9034609994311,
+              112.8369896667658,
+              175.89
+            ]
+          ],
+          [
+            [
+              -60.43042633737619,
+              93.30013430488341,
+              126.09629587322871
+            ],
+            [
+              -45.156987813815626,
+              94.03851050357243,
+              167.8
+            ]
+          ]
+        ],
+        "x_source_track_ids": [
+          1,
+          0,
+          2
+        ],
+        "y_source_track_ids": [
+          2,
+          1,
+          0
+        ],
+        "success": true,
+        "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "normalized_energy_residual": 0.18723633005852888,
+        "normalized_objective": 0.34229184173443705,
+        "smoothness": 0.3,
+        "ridge": 0.001,
+        "deposited_energy_MeV": 92.64130315913945,
+        "measured_energy_MeV": 104.23862184970001,
+        "forward_operator_error": 0.0
+      },
+      {
+        "vertex_mm": [
+          -60.43042633737619,
+          93.30013430488341,
+          126.09629587322871
+        ],
+        "segments": [
+          [
+            [
+              -13.649788397839785,
+              91.0675627488266,
+              0.0
+            ],
+            [
+              -60.43042633737619,
+              93.30013430488341,
+              126.09629587322871
+            ]
+          ],
+          [
+            [
+              -60.43042633737619,
+              93.30013430488341,
+              126.09629587322871
+            ],
+            [
+              16.642135795780717,
+              72.77675245111703,
+              70.72
+            ]
+          ],
+          [
+            [
+              -60.43042633737619,
+              93.30013430488341,
+              126.09629587322871
+            ],
+            [
+              -78.9034609994311,
+              94.1817463041439,
+              175.89
+            ]
+          ],
+          [
+            [
+              -60.43042633737619,
+              93.30013430488341,
+              126.09629587322871
+            ],
+            [
+              -44.321967506557996,
+              110.55740168183601,
+              170.07999999999998
+            ]
+          ]
+        ],
+        "x_source_track_ids": [
+          1,
+          0,
+          2
+        ],
+        "y_source_track_ids": [
+          2,
+          0,
+          1
+        ],
+        "success": true,
+        "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "normalized_energy_residual": 0.18804534650985652,
+        "normalized_objective": 0.34299192834353953,
+        "smoothness": 0.3,
+        "ridge": 0.001,
+        "deposited_energy_MeV": 92.97080723634447,
+        "measured_energy_MeV": 104.23862184970001,
+        "forward_operator_error": 0.0
+      },
+      {
+        "vertex_mm": [
+          -62.63164190410738,
+          93.40518569963749,
+          132.02962944046317
+        ],
+        "segments": [
+          [
+            [
+              -13.649788397839785,
+              91.0675627488266,
+              0.0
+            ],
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -78.9034609994311,
+              110.61406241944616,
+              175.89
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -49.53120952895654,
+              31.910214903341092,
+              167.8
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -88.20773603853654,
+              84.14517174219765,
+              175.89
+            ]
+          ]
+        ],
+        "x_source_track_ids": [
+          0,
+          2,
+          3
+        ],
+        "y_source_track_ids": [
+          1,
+          3,
+          4
+        ],
+        "success": true,
+        "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "normalized_energy_residual": 0.23215438089386392,
+        "normalized_objective": 0.37961521275058857,
+        "smoothness": 0.3,
+        "ridge": 0.001,
+        "deposited_energy_MeV": 76.57818416173663,
+        "measured_energy_MeV": 104.23862184970001,
+        "forward_operator_error": 0.0
+      },
+      {
+        "vertex_mm": [
+          -62.63164190410738,
+          93.40518569963749,
+          132.02962944046317
+        ],
+        "segments": [
+          [
+            [
+              -13.649788397839785,
+              91.0675627488266,
+              0.0
+            ],
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -78.9034609994311,
+              18.002214903341155,
+              175.89
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -48.69618922169891,
+              108.33447443451637,
+              170.07999999999998
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -88.20773603853654,
+              84.14517174219765,
+              175.89
+            ]
+          ]
+        ],
+        "x_source_track_ids": [
+          0,
+          2,
+          3
+        ],
+        "y_source_track_ids": [
+          3,
+          1,
+          4
+        ],
+        "success": true,
+        "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "normalized_energy_residual": 0.2321576189301454,
+        "normalized_objective": 0.37961916798193834,
+        "smoothness": 0.3,
+        "ridge": 0.001,
+        "deposited_energy_MeV": 76.63112834522155,
+        "measured_energy_MeV": 104.23862184970001,
+        "forward_operator_error": 0.0
+      },
+      {
+        "vertex_mm": [
+          -62.63164190410738,
+          93.40518569963749,
+          132.02962944046317
+        ],
+        "segments": [
+          [
+            [
+              -13.649788397839785,
+              91.0675627488266,
+              0.0
+            ],
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -78.9034609994311,
+              84.14517174219765,
+              175.89
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -49.53120952895654,
+              31.910214903341092,
+              167.8
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -88.20773603853654,
+              110.61406241944616,
+              175.89
+            ]
+          ]
+        ],
+        "x_source_track_ids": [
+          0,
+          2,
+          3
+        ],
+        "y_source_track_ids": [
+          4,
+          3,
+          1
+        ],
+        "success": true,
+        "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "normalized_energy_residual": 0.2321568296505481,
+        "normalized_objective": 0.3796195677416445,
+        "smoothness": 0.3,
+        "ridge": 0.001,
+        "deposited_energy_MeV": 76.51860268185298,
+        "measured_energy_MeV": 104.23862184970001,
+        "forward_operator_error": 0.0
+      },
+      {
+        "vertex_mm": [
+          -62.63164190410738,
+          93.40518569963749,
+          132.02962944046317
+        ],
+        "segments": [
+          [
+            [
+              -13.649788397839785,
+              91.0675627488266,
+              0.0
+            ],
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -78.9034609994311,
+              84.14517174219765,
+              175.89
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -48.69618922169891,
+              108.33447443451637,
+              170.07999999999998
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -88.20773603853654,
+              18.002214903341155,
+              175.89
+            ]
+          ]
+        ],
+        "x_source_track_ids": [
+          0,
+          2,
+          3
+        ],
+        "y_source_track_ids": [
+          4,
+          1,
+          3
+        ],
+        "success": true,
+        "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "normalized_energy_residual": 0.2321587805913695,
+        "normalized_objective": 0.37962222192694184,
+        "smoothness": 0.3,
+        "ridge": 0.001,
+        "deposited_energy_MeV": 76.55768162799055,
+        "measured_energy_MeV": 104.23862184970001,
+        "forward_operator_error": 0.0
+      },
+      {
+        "vertex_mm": [
+          -62.63164190410738,
+          93.40518569963749,
+          132.02962944046317
+        ],
+        "segments": [
+          [
+            [
+              -13.649788397839785,
+              91.0675627488266,
+              0.0
+            ],
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -78.9034609994311,
+              110.61406241944616,
+              175.89
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -48.69618922169891,
+              85.37180709448441,
+              170.07999999999998
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -88.20773603853654,
+              18.002214903341155,
+              175.89
+            ]
+          ]
+        ],
+        "x_source_track_ids": [
+          0,
+          2,
+          3
+        ],
+        "y_source_track_ids": [
+          1,
+          4,
+          3
+        ],
+        "success": true,
+        "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "normalized_energy_residual": 0.23216471524519225,
+        "normalized_objective": 0.37963044488048386,
+        "smoothness": 0.3,
+        "ridge": 0.001,
+        "deposited_energy_MeV": 76.54275057179973,
+        "measured_energy_MeV": 104.23862184970001,
+        "forward_operator_error": 0.0
+      },
+      {
+        "vertex_mm": [
+          -62.63164190410738,
+          93.40518569963749,
+          132.02962944046317
+        ],
+        "segments": [
+          [
+            [
+              -13.649788397839785,
+              91.0675627488266,
+              0.0
+            ],
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -78.9034609994311,
+              18.002214903341155,
+              175.89
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -48.69618922169891,
+              85.37180709448441,
+              170.07999999999998
+            ]
+          ],
+          [
+            [
+              -62.63164190410738,
+              93.40518569963749,
+              132.02962944046317
+            ],
+            [
+              -88.20773603853654,
+              110.61406241944616,
+              175.89
+            ]
+          ]
+        ],
+        "x_source_track_ids": [
+          0,
+          2,
+          3
+        ],
+        "y_source_track_ids": [
+          3,
+          4,
+          1
+        ],
+        "success": true,
+        "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "normalized_energy_residual": 0.2321660050636366,
+        "normalized_objective": 0.37963174586092957,
+        "smoothness": 0.3,
+        "ridge": 0.001,
+        "deposited_energy_MeV": 76.55663942485293,
+        "measured_energy_MeV": 104.23862184970001,
+        "forward_operator_error": 0.0
+      }
+    ],
+    "vertex_proposal_count": 3,
+    "v1_iou44": 0.16233766233766234,
+    "v2_iou44": 0.32413793103448274,
+    "v1_vertex_error_mm": 4.48815104135322,
+    "v2_vertex_error_mm": 4.005609658745021,
+    "hybrid_iou44": 0.32413793103448274
+  },
+  {
+    "kind": "antiproton",
+    "event_id": 6424,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "no_vertex",
+    "hypotheses": [],
+    "vertex_proposal_count": 0,
+    "v1_iou44": 0.11304347826086956,
+    "v2_iou44": 0.0,
+    "v1_vertex_error_mm": 77.36783663934,
+    "hybrid_iou44": 0.11304347826086956
+  },
+  {
+    "kind": "antiproton",
+    "event_id": 7889,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "insufficient_connected_tracks",
+    "hypotheses": [],
+    "vertex_proposal_count": 1,
+    "v1_iou44": 0.0425531914893617,
+    "v2_iou44": 0.0,
+    "v1_vertex_error_mm": 17.210106401762896,
+    "hybrid_iou44": 0.0425531914893617
+  },
+  {
+    "kind": "antiproton",
+    "event_id": 4360,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "no_vertex",
+    "hypotheses": [],
+    "vertex_proposal_count": 0,
+    "v1_iou44": 0.1694915254237288,
+    "v2_iou44": 0.0,
+    "v1_vertex_error_mm": 4.880723366469361,
+    "hybrid_iou44": 0.1694915254237288
+  },
+  {
+    "kind": "antiproton",
+    "event_id": 7923,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "insufficient_connected_tracks",
+    "hypotheses": [],
+    "vertex_proposal_count": 1,
+    "v1_iou44": 0.025974025974025976,
+    "v2_iou44": 0.0,
+    "v1_vertex_error_mm": 19.45323163101699,
+    "hybrid_iou44": 0.025974025974025976
+  },
+  {
+    "kind": "antiproton",
+    "event_id": 2387,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "insufficient_connected_tracks",
+    "hypotheses": [],
+    "vertex_proposal_count": 3,
+    "v1_iou44": 0.17543859649122806,
+    "v2_iou44": 0.0,
+    "v1_vertex_error_mm": 3.8984019599332522,
+    "hybrid_iou44": 0.17543859649122806
+  },
+  {
+    "kind": "antiproton",
+    "event_id": 1314,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "ok",
+    "hypotheses": [
+      {
+        "vertex_mm": [
+          -5.76768893846581,
+          -110.40137933652757,
+          69.79741540385953
+        ],
+        "segments": [
+          [
+            [
+              34.18515520964553,
+              -91.47192975093493,
+              0.0
+            ],
+            [
+              -5.76768893846581,
+              -110.40137933652757,
+              69.79741540385953
+            ]
+          ],
+          [
+            [
+              -5.76768893846581,
+              -110.40137933652757,
+              69.79741540385953
+            ],
+            [
+              -26.12412178991863,
+              -93.23990464390302,
+              105.36
+            ]
+          ],
+          [
+            [
+              -5.76768893846581,
+              -110.40137933652757,
+              69.79741540385953
+            ],
+            [
+              -54.69713629903786,
+              -117.23374923567212,
+              94.99
+            ]
+          ]
+        ],
+        "x_source_track_ids": [
+          0,
+          1
+        ],
+        "y_source_track_ids": [
+          1,
+          0
+        ],
+        "success": true,
+        "solver_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "normalized_energy_residual": 0.7839845396159433,
+        "normalized_objective": 0.7888075027759752,
+        "smoothness": 0.3,
+        "ridge": 0.001,
+        "deposited_energy_MeV": 4.528098919675994,
+        "measured_energy_MeV": 9.7345987932,
+        "forward_operator_error": 0.0
+      },
+      {
+        "vertex_mm": [
+          -5.76768893846581,
+          -110.40137933652757,
+          69.79741540385953
+        ],
+        "segments": [
+          [
+            [
+              34.18515520964553,
+              -91.47192975093493,
+              0.0
+            ],
+            [
+              -5.76768893846581,
+              -110.40137933652757,
+              69.79741540385953
+            ]
+          ],
+          [
+            [
+              -5.76768893846581,
+              -110.40137933652757,
+              69.79741540385953
+            ],
+            [
+              -16.8625035111321,
+              -115.65804472776263,
+              89.17999999999999
+            ]
+          ],
+          [
+            [
+              -5.76768893846581,
+              -110.40137933652757,
+              69.79741540385953
+            ],
+            [
+              -74.83791888499239,
+              -93.23990464390302,
+              105.36
+            ]
+          ]
+        ],
+        "x_source_track_ids": [
+          0,
+          1
+        ],
+        "y_source_track_ids": [
+          0,
+          1
+        ],
+        "success": true,
+        "solver_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "normalized_energy_residual": 0.8076311710613714,
+        "normalized_objective": 0.8186772374939686,
+        "smoothness": 0.3,
+        "ridge": 0.001,
+        "deposited_energy_MeV": 4.530197207189004,
+        "measured_energy_MeV": 9.7345987932,
+        "forward_operator_error": 0.0
+      }
+    ],
+    "vertex_proposal_count": 1,
+    "v1_iou44": 0.25806451612903225,
+    "v2_iou44": 0.27692307692307694,
+    "v1_vertex_error_mm": 4.085566412003243,
+    "v2_vertex_error_mm": 2.351859372076528,
+    "hybrid_iou44": 0.27692307692307694
+  },
+  {
+    "kind": "antiproton",
+    "event_id": 5677,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "ok",
+    "hypotheses": [
+      {
+        "vertex_mm": [
+          17.98466260431934,
+          -60.826461020756156,
+          97.68539290746718
+        ],
+        "segments": [
+          [
+            [
+              -36.7899345273175,
+              21.972381136039886,
+              0.0
+            ],
+            [
+              17.98466260431934,
+              -60.826461020756156,
+              97.68539290746718
+            ]
+          ],
+          [
+            [
+              17.98466260431934,
+              -60.826461020756156,
+              97.68539290746718
+            ],
+            [
+              107.4098768382938,
+              -57.532000255833,
+              30.269999999999996
+            ]
+          ],
+          [
+            [
+              17.98466260431934,
+              -60.826461020756156,
+              97.68539290746718
+            ],
+            [
+              52.763381966790696,
+              -113.3989644385046,
+              159.71
+            ]
+          ]
+        ],
+        "x_source_track_ids": [
+          1,
+          0
+        ],
+        "y_source_track_ids": [
+          1,
+          0
+        ],
+        "success": true,
+        "solver_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "normalized_energy_residual": 0.9940707511242588,
+        "normalized_objective": 0.9945503769232679,
+        "smoothness": 0.3,
+        "ridge": 0.001,
+        "deposited_energy_MeV": 8.384741408261045,
+        "measured_energy_MeV": 50.839998547,
+        "forward_operator_error": 0.0
+      }
+    ],
+    "vertex_proposal_count": 1,
+    "v1_iou44": 0.0,
+    "v2_iou44": 0.22857142857142856,
+    "v1_vertex_error_mm": 109.97749583914886,
+    "v2_vertex_error_mm": 4.848567876011914,
+    "hybrid_iou44": 0.22857142857142856
+  },
+  {
+    "kind": "antiproton",
+    "event_id": 8388,
+    "category": "multi_prong",
+    "simple_star": true,
+    "status": "no_vertex",
+    "hypotheses": [],
+    "vertex_proposal_count": 0,
+    "v1_iou44": 0.06349206349206349,
+    "v2_iou44": 0.0,
+    "v1_vertex_error_mm": 12.533325292594942,
+    "hybrid_iou44": 0.06349206349206349
+  }
+]

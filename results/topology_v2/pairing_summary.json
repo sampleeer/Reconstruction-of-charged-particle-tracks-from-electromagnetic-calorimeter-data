@@ -1,0 +1,902 @@
+{
+  "visible_branches": 96,
+  "proposed_3d_pairs": 47,
+  "assessable_pairs": 16,
+  "correct_assessable_pairs": 7,
+  "incorrect_assessable_pairs": 9,
+  "unassessable_pairs": 31,
+  "recovered_visible_3d_branches": 7,
+  "caution": "Only top-ranked hypothesis; merged/primary/unmatched segments unassessable; abstentions count as no recovered branches",
+  "events": [
+    {
+      "kind": "proton",
+      "event_id": 1162,
+      "pairs": [
+        {
+          "x_segment": 1,
+          "y_segment": 1,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 2,
+          "y_segment": 0,
+          "truth_x_track": 7,
+          "truth_y_track": 1,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 1887,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 2074,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 2737,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 2827,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 3496,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 6,
+          "truth_x_track": 2,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 1,
+          "y_segment": 0,
+          "truth_x_track": 6,
+          "truth_y_track": 2,
+          "assessable": true,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 3579,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 5,
+          "truth_x_track": 3,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 2,
+          "y_segment": 0,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 4665,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 4978,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 5094,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 5168,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 0,
+          "truth_x_track": 1,
+          "truth_y_track": 1,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 1,
+          "y_segment": 1,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 5409,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 2,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 2,
+          "y_segment": 0,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 4,
+          "y_segment": 1,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 5747,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 5976,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 1,
+          "truth_x_track": 6,
+          "truth_y_track": 3,
+          "assessable": true,
+          "correct": false
+        },
+        {
+          "x_segment": 1,
+          "y_segment": 0,
+          "truth_x_track": 3,
+          "truth_y_track": 6,
+          "assessable": true,
+          "correct": false
+        },
+        {
+          "x_segment": 3,
+          "y_segment": 3,
+          "truth_x_track": 2,
+          "truth_y_track": 2,
+          "assessable": true,
+          "correct": true
+        }
+      ],
+      "recovered_visible_ids": [
+        2
+      ]
+    },
+    {
+      "kind": "proton",
+      "event_id": 6770,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 6928,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 8788,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 1,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 1,
+          "y_segment": 2,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 9384,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 9679,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 9843,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 1,
+          "truth_x_track": 5,
+          "truth_y_track": 5,
+          "assessable": true,
+          "correct": true
+        },
+        {
+          "x_segment": 1,
+          "y_segment": 0,
+          "truth_x_track": 4,
+          "truth_y_track": 4,
+          "assessable": true,
+          "correct": true
+        }
+      ],
+      "recovered_visible_ids": [
+        4,
+        5
+      ]
+    },
+    {
+      "kind": "proton",
+      "event_id": 3963,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 0,
+          "truth_x_track": 3,
+          "truth_y_track": 3,
+          "assessable": true,
+          "correct": true
+        },
+        {
+          "x_segment": 1,
+          "y_segment": 1,
+          "truth_x_track": 4,
+          "truth_y_track": 4,
+          "assessable": true,
+          "correct": true
+        }
+      ],
+      "recovered_visible_ids": [
+        3,
+        4
+      ]
+    },
+    {
+      "kind": "proton",
+      "event_id": 4132,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 4499,
+      "pairs": [
+        {
+          "x_segment": 1,
+          "y_segment": 6,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 6,
+          "y_segment": 3,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 4549,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 3,
+          "truth_x_track": 18,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 1,
+          "y_segment": 0,
+          "truth_x_track": 17,
+          "truth_y_track": 18,
+          "assessable": true,
+          "correct": false
+        },
+        {
+          "x_segment": 3,
+          "y_segment": 4,
+          "truth_x_track": null,
+          "truth_y_track": 9,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 6860,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 1,
+          "truth_x_track": 1,
+          "truth_y_track": 10,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 2,
+          "y_segment": 2,
+          "truth_x_track": 13,
+          "truth_y_track": 13,
+          "assessable": true,
+          "correct": true
+        }
+      ],
+      "recovered_visible_ids": [
+        13
+      ]
+    },
+    {
+      "kind": "proton",
+      "event_id": 8173,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 8266,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 2,
+          "truth_x_track": 2,
+          "truth_y_track": 15,
+          "assessable": true,
+          "correct": false
+        },
+        {
+          "x_segment": 1,
+          "y_segment": 0,
+          "truth_x_track": 23,
+          "truth_y_track": 2,
+          "assessable": true,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 9083,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 9759,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 9797,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 2,
+          "truth_x_track": 9,
+          "truth_y_track": 10,
+          "assessable": true,
+          "correct": false
+        },
+        {
+          "x_segment": 1,
+          "y_segment": 0,
+          "truth_x_track": 10,
+          "truth_y_track": 9,
+          "assessable": true,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 2709,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 4397,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 6383,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 8381,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 8913,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 1491,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 4212,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 6913,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 7697,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 9500,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 634,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1272,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1380,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1456,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1484,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 0,
+          "truth_x_track": 9,
+          "truth_y_track": 9,
+          "assessable": true,
+          "correct": true
+        },
+        {
+          "x_segment": 2,
+          "y_segment": 1,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": [
+        9
+      ]
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1574,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1684,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1888,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 3641,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 3697,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 0,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 3,
+          "y_segment": 3,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 4151,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 4826,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 4840,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 5074,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 0,
+          "truth_x_track": 8,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 3,
+          "y_segment": 3,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 5749,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 0,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 1,
+          "y_segment": 3,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 6506,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 4,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 1,
+          "y_segment": 0,
+          "truth_x_track": null,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 7338,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 9196,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 9283,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 9979,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 987,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1490,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 3329,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 3674,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 3901,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 4123,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 2,
+          "truth_x_track": 5,
+          "truth_y_track": 25,
+          "assessable": true,
+          "correct": false
+        },
+        {
+          "x_segment": 6,
+          "y_segment": 0,
+          "truth_x_track": null,
+          "truth_y_track": 5,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 4907,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 6554,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 1,
+          "truth_x_track": 1,
+          "truth_y_track": 20,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 1,
+          "y_segment": 0,
+          "truth_x_track": 20,
+          "truth_y_track": 1,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 6761,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 9347,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 0,
+          "truth_x_track": 1,
+          "truth_y_track": 1,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 1,
+          "y_segment": 4,
+          "truth_x_track": 12,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 4451,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 6492,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 7294,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 7401,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 8427,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 2155,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 3102,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 4514,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 5089,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 6425,
+      "pairs": [],
+      "recovered_visible_ids": []
+    }
+  ]
+}

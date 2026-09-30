@@ -1,0 +1,16 @@
+[
+  {
+    "figure": "star_example_lower.png",
+    "kind": "proton",
+    "event_id": 9775,
+    "validation_completion_iou": 0.0877914951989026,
+    "selection": "validation stars sorted by completion IoU; zero-based rank 4 of 16"
+  },
+  {
+    "figure": "star_example_upper.png",
+    "kind": "antiproton",
+    "event_id": 1476,
+    "validation_completion_iou": 0.17768595041322313,
+    "selection": "validation stars sorted by completion IoU; zero-based rank 12 of 16"
+  }
+]

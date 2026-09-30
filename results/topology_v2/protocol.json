@@ -1,0 +1,23 @@
+{
+  "stage": "development; validation already used in iteration, not a new test",
+  "visibility": ">=3 supported planes AND >=2 separated planes in EACH view; separation +/-1 strip from other primary/co-born long tracks; signal >.01 MeV",
+  "simple": "2-3 branches; all including primary visible; straightness P90 <=3.66mm; >=70% active strips explained in each view",
+  "match": "Hungarian one-to-one; >=50% reference samples within 4.88mm and predicted range; >=50% predicted z-span overlaps truth",
+  "caveats": [
+    "ParentID unavailable",
+    "no track ownership of deposited energy",
+    "separation ignores other shower trajectories",
+    "v1 includes detector gate; segment extraction does not",
+    "both-view recall is NOT correct 3D-pairing recall",
+    "hybrid uses v2 if status ok, otherwise v1; development rule, not test-validated",
+    "rejecting an event is counted as zero IoU in all-event means"
+  ],
+  "sources_sha256": {
+    "track_topology.py": "10c8604568122fc3a68dce6eff2dcaf8140499304bae0b5a8a2ca07e9f998db8",
+    "topology_truth.py": "46fba1b24a016657b3b65a668664fa874c01bb60e76019fe7a196aaf8049f67b",
+    "topology_audit.py": "75ccf2bdeea8955125a1b2c4a23509d6a40e41bac4bfcc9dc32dddfe992d3b21",
+    "simple_star_development.py": "f00e30204e182880bd30dc6294094b83dd9825be910ef9ebc2257d4cd02d2e94",
+    "topology_reconstruct.py": "a0bb5396355a8dc43acd697216f77c5b04fce8baf3c055311ddc2b55924329ae",
+    "evaluate_topology3d.py": "b9cf89b98fd686604661150fbb04eda9d1d6747e7b387417d95ee9a2bf1acf43"
+  }
+}

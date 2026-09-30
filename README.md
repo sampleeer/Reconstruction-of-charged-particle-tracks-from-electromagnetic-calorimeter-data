@@ -1,3 +1,47 @@
+# Новый эксперимент: звёзды на Geant4
+
+**Следующий этап — разбор топологии:** [TOPOLOGY_REVIEW_REPORT.md](TOPOLOGY_REVIEW_REPORT.md),
+[атлас 80 событий](results/topology_v2/index.html),
+[20 простых примеров](results/topology_v2/development/index.html),
+`topology_review.ipynb`. Новый поиск улучшает полноту проекционных ветвей,
+но пока часто отказывается от 3D-реконструкции; это версия для разработки.
+
+Результаты и ограничения: [STAR_RECONSTRUCTION_REPORT.md](STAR_RECONSTRUCTION_REPORT.md).
+Демонстрация: `star_reconstruction.ipynb`. Исходные ноутбуки сохранены.
+
+Команды ниже предназначены для новой рабочей копии с исходными данными,
+без существующего протокола этой копии. Опубликованный протокол сохраняйте
+отдельно вместе с результатами соответствующей версии.
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 -m reconstruction.build_dataset
+python3 -m reconstruction.star_benchmark
+# На первой сборке, до просмотра test:
+python3 -m reconstruction.protocol
+python3 -m reconstruction.star_benchmark --evaluate-test
+python3 -m reconstruction.star_reconstruction_benchmark --split test --per-stratum 100
+python3 -m reconstruction.plot_stars
+python3 -m pytest -q
+```
+
+В текущей папке всё уже выполнено. Модель — `results/star_model.joblib`,
+производные данные — `data/derived/`; они исключены из Git. Новое обучение
+делайте в отдельной копии эксперимента: `frozen_protocol.json` защищает
+оценённую версию. В другом окружении байты модели могут отличаться;
+не подменяйте протокол старых результатов после повторного обучения.
+
+Один запуск, вход модели — только измеряемые проекции:
+
+```bash
+python3 -m reconstruction.star_reconstruct 'data/raw/calorimeter_response (2).npy' --event-id 1000 --out results/my_star
+```
+
+JSON содержит решение детектора, вершины и сопоставления; NPZ — энергии
+на 44 плоскостях и отдельное достраивание, если детектор сработал.
+
+## Исходная постановка
+
 Есть такая задача.
 Есть калориметр Pamela (Payload for Antimatter–Matter Exploration and Light– nuclei Astrophysics), который выглядит вот так https://pamela-web.web.roma2.infn.it/?page_id=119. 
 Когда через него пролетает заряженная частица, она выделяет энергию и летит дальше (за счёт ионизации / электромагнитного взаимодействия), либо взаимодействует с веществом калориметра 
@@ -15,3 +59,35 @@
 
 
 <img width="399" alt="image" src="https://github.com/user-attachments/assets/349c6287-7058-4961-834a-00f8c0bb54cc" />
+
+## Воспроизводимая реконструкция (новая работа)
+
+Разбор переписки, исходных 29 ноутбуков и найденных расхождений:
+[RECONSTRUCTION_AUDIT.md](RECONSTRUCTION_AUDIT.md); полный список ноутбуков —
+[NOTEBOOK_INVENTORY.md](NOTEBOOK_INVENTORY.md). Описание переданных
+модельных данных: [DATASETS.md](DATASETS.md). Старые ноутбуки оставлены
+без изменений как история работы.
+
+Минимальный опыт без внешних данных:
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 -m reconstruction.demo
+```
+
+Тот же опыт с визуализацией находится в `reconstruction_demo.ipynb`.
+После копирования доверенного Geant4-файла в `data/raw/` можно проверить
+отдельное событие:
+
+```bash
+python3 -m reconstruction.run_hits 'data/raw/calorimeter_response (2).npy' \
+  --event-id 1 --max-branches 4 --evaluate-truth
+```
+
+Результат записывается в `results/geant4_event.json` и `.npz`.
+В `.npz` находятся как энергетическая оценка на линиях (`energy`), так и
+разреженное транспортное продолжение вне линий (`transport`).
+Флаг `--evaluate-truth` использует полные 3D-попадания **после** подгонки;
+входом метода остаются только две проекции. Для `.npy` исторического формата
+нужен `allow_pickle=True`, поэтому открывайте только файлы из доверенного
+источника. Сырые данные в `data/raw/` исключены из Git.

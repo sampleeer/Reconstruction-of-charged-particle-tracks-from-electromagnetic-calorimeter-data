@@ -1,0 +1,232 @@
+{
+  "visible_branches": 44,
+  "proposed_3d_pairs": 11,
+  "assessable_pairs": 4,
+  "correct_assessable_pairs": 4,
+  "incorrect_assessable_pairs": 0,
+  "unassessable_pairs": 7,
+  "recovered_visible_3d_branches": 4,
+  "caution": "Only top-ranked hypothesis; merged/primary/unmatched segments unassessable; abstentions count as no recovered branches",
+  "events": [
+    {
+      "kind": "proton",
+      "event_id": 3019,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 2241,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 2594,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 5513,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 8756,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 195,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 0,
+          "truth_x_track": 4,
+          "truth_y_track": 4,
+          "assessable": true,
+          "correct": true
+        },
+        {
+          "x_segment": 1,
+          "y_segment": 1,
+          "truth_x_track": 5,
+          "truth_y_track": 5,
+          "assessable": true,
+          "correct": true
+        }
+      ],
+      "recovered_visible_ids": [
+        4,
+        5
+      ]
+    },
+    {
+      "kind": "proton",
+      "event_id": 5438,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 7025,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 10,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "proton",
+      "event_id": 132,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 4501,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 2,
+          "truth_x_track": 1,
+          "truth_y_track": null,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 2,
+          "y_segment": 0,
+          "truth_x_track": 7,
+          "truth_y_track": 1,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 5428,
+      "pairs": [
+        {
+          "x_segment": 1,
+          "y_segment": 2,
+          "truth_x_track": 7,
+          "truth_y_track": 7,
+          "assessable": true,
+          "correct": true
+        },
+        {
+          "x_segment": 0,
+          "y_segment": 1,
+          "truth_x_track": 1,
+          "truth_y_track": 6,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 2,
+          "y_segment": 0,
+          "truth_x_track": 5,
+          "truth_y_track": 1,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": [
+        7
+      ]
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 6424,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 7889,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 4360,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 7923,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 2387,
+      "pairs": [],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1314,
+      "pairs": [
+        {
+          "x_segment": 0,
+          "y_segment": 1,
+          "truth_x_track": 1,
+          "truth_y_track": 7,
+          "assessable": false,
+          "correct": false
+        },
+        {
+          "x_segment": 1,
+          "y_segment": 0,
+          "truth_x_track": 7,
+          "truth_y_track": 1,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": []
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 5677,
+      "pairs": [
+        {
+          "x_segment": 1,
+          "y_segment": 1,
+          "truth_x_track": 11,
+          "truth_y_track": 11,
+          "assessable": true,
+          "correct": true
+        },
+        {
+          "x_segment": 0,
+          "y_segment": 0,
+          "truth_x_track": 1,
+          "truth_y_track": 1,
+          "assessable": false,
+          "correct": false
+        }
+      ],
+      "recovered_visible_ids": [
+        11
+      ]
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 8388,
+      "pairs": [],
+      "recovered_visible_ids": []
+    }
+  ]
+}

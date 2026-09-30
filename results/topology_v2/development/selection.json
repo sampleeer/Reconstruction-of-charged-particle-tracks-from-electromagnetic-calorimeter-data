@@ -1,0 +1,18 @@
+{
+  "seed": 404,
+  "split": "train",
+  "truth_curated": true,
+  "counts": {
+    "proton": {
+      "scanned": 325,
+      "selected": 10,
+      "pool": 912
+    },
+    "antiproton": {
+      "scanned": 493,
+      "selected": 10,
+      "pool": 1009
+    }
+  },
+  "criteria": "2-3 co-born long branches; each including primary visible and straight; >=70% measured strips explained within +/-1 strip"
+}

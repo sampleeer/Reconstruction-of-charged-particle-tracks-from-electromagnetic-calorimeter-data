@@ -1,0 +1,406 @@
+{
+  "seed": 240924,
+  "split": "validation",
+  "events": [
+    {
+      "kind": "proton",
+      "event_id": 1162,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 1887,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 2074,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 2737,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 2827,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 3496,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 3579,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 4665,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 4978,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 5094,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 5168,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 5409,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 5747,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 5976,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 6770,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 6928,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 8788,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 9384,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 9679,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 9843,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 3963,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 4132,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 4499,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 4549,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 6860,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 8173,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 8266,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 9083,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 9759,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 9797,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "proton",
+      "event_id": 2709,
+      "stratum": "other_interaction"
+    },
+    {
+      "kind": "proton",
+      "event_id": 4397,
+      "stratum": "other_interaction"
+    },
+    {
+      "kind": "proton",
+      "event_id": 6383,
+      "stratum": "other_interaction"
+    },
+    {
+      "kind": "proton",
+      "event_id": 8381,
+      "stratum": "other_interaction"
+    },
+    {
+      "kind": "proton",
+      "event_id": 8913,
+      "stratum": "other_interaction"
+    },
+    {
+      "kind": "proton",
+      "event_id": 1491,
+      "stratum": "transportation"
+    },
+    {
+      "kind": "proton",
+      "event_id": 4212,
+      "stratum": "transportation"
+    },
+    {
+      "kind": "proton",
+      "event_id": 6913,
+      "stratum": "transportation"
+    },
+    {
+      "kind": "proton",
+      "event_id": 7697,
+      "stratum": "transportation"
+    },
+    {
+      "kind": "proton",
+      "event_id": 9500,
+      "stratum": "transportation"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 634,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1272,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1380,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1456,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1484,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1574,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1684,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1888,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 3641,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 3697,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 4151,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 4826,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 4840,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 5074,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 5749,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 6506,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 7338,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 9196,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 9283,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 9979,
+      "stratum": "two_three_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 987,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1490,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 3329,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 3674,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 3901,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 4123,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 4907,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 6554,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 6761,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 9347,
+      "stratum": "many_long"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 4451,
+      "stratum": "other_interaction"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 6492,
+      "stratum": "other_interaction"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 7294,
+      "stratum": "other_interaction"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 7401,
+      "stratum": "other_interaction"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 8427,
+      "stratum": "other_interaction"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 2155,
+      "stratum": "transportation"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 3102,
+      "stratum": "transportation"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 4514,
+      "stratum": "transportation"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 5089,
+      "stratum": "transportation"
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 6425,
+      "stratum": "transportation"
+    }
+  ]
+}

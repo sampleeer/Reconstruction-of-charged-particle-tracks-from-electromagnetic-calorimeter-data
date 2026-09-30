@@ -1,0 +1,49 @@
+{
+  "data": "synthetic; no Geant4 or PAMELA events used",
+  "truth_branches": 2,
+  "chosen_branches": 2,
+  "binary_projection_iou_xz": 1.0,
+  "binary_projection_iou_yz": 1.0,
+  "geometry_iou_before_pairing": 0.1724137931034483,
+  "geometry_iou_after_pairing": 1.0,
+  "pairing_candidates": 2,
+  "models": [
+    {
+      "branches": 0,
+      "projection_chamfer": 3.2273114246888372,
+      "selection_score": 3.2273114246888372,
+      "evaluations": 525
+    },
+    {
+      "branches": 1,
+      "projection_chamfer": 1.602060512651201,
+      "selection_score": 1.752060512651201,
+      "evaluations": 840
+    },
+    {
+      "branches": 2,
+      "projection_chamfer": 0.0,
+      "selection_score": 0.3,
+      "evaluations": 1155
+    }
+  ],
+  "fitted_energy": {
+    "success": true,
+    "voxels": 34,
+    "xz_mse": 3.188364533806059e-06,
+    "yz_mse": 3.188364533806059e-06,
+    "xz_total": 82.51,
+    "yz_total": 82.51
+  },
+  "oracle_mask_energy": {
+    "success": true,
+    "voxels": 34,
+    "xz_mse": 3.188364533806059e-06,
+    "yz_mse": 3.188364533806059e-06,
+    "xz_total": 82.51,
+    "yz_total": 82.51
+  },
+  "truth_energy_sum": 82.51,
+  "fitted_energy_sum": 82.0995024875622,
+  "oracle_energy_sum": 82.0995024875622
+}

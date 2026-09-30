@@ -1,0 +1,260 @@
+{
+  "selection": "NumPy RNG 2026; 10 IDs per species with 30-100 raw hits; max_branches=2, maxiter=20",
+  "caution": "paired_truth_iou_approx merges adjacent physical planes; it is not a true same-plane 3D IoU",
+  "summary": {
+    "proton": {
+      "xz_iou": 0.6449860054646447,
+      "yz_iou": 0.6747502778192433,
+      "paired_truth_iou_approx": 0.24018447507514443,
+      "transport_paired_truth_iou_approx": 0.24502068519715578
+    },
+    "antiproton": {
+      "xz_iou": 0.6272754629047536,
+      "yz_iou": 0.6573810872341607,
+      "paired_truth_iou_approx": 0.2616343422659212,
+      "transport_paired_truth_iou_approx": 0.335002352577919
+    }
+  },
+  "events": [
+    {
+      "kind": "proton",
+      "event_id": 237,
+      "raw_hits": 49,
+      "branches": 0,
+      "xz_iou": 0.9166666666666666,
+      "yz_iou": 1.0,
+      "paired_truth_iou_approx": 0.8148148148148148,
+      "transport_paired_truth_iou_approx": 0.8214285714285714,
+      "energy_mse": 0.0004963213287970461,
+      "transport_energy_mse": 0.0004991993475660453
+    },
+    {
+      "kind": "proton",
+      "event_id": 761,
+      "raw_hits": 57,
+      "branches": 0,
+      "xz_iou": 0.6896551724137931,
+      "yz_iou": 0.7037037037037037,
+      "paired_truth_iou_approx": 0.4878048780487805,
+      "transport_paired_truth_iou_approx": 0.5,
+      "energy_mse": 0.00794807460244622,
+      "transport_energy_mse": 0.0017016278044088096
+    },
+    {
+      "kind": "proton",
+      "event_id": 1753,
+      "raw_hits": 56,
+      "branches": 1,
+      "xz_iou": 0.4838709677419355,
+      "yz_iou": 0.4827586206896552,
+      "paired_truth_iou_approx": 0.0,
+      "transport_paired_truth_iou_approx": 0.0,
+      "energy_mse": 0.001222772581177615,
+      "transport_energy_mse": 0.0007707859556441378
+    },
+    {
+      "kind": "proton",
+      "event_id": 3491,
+      "raw_hits": 41,
+      "branches": 1,
+      "xz_iou": 0.7647058823529411,
+      "yz_iou": 0.5,
+      "paired_truth_iou_approx": 0.08,
+      "transport_paired_truth_iou_approx": 0.17647058823529413,
+      "energy_mse": 0.0004062628480383084,
+      "transport_energy_mse": 0.000210027365968224
+    },
+    {
+      "kind": "proton",
+      "event_id": 3565,
+      "raw_hits": 51,
+      "branches": 0,
+      "xz_iou": 0.6,
+      "yz_iou": 0.64,
+      "paired_truth_iou_approx": 0.37209302325581395,
+      "transport_paired_truth_iou_approx": 0.36,
+      "energy_mse": 0.002882611249502495,
+      "transport_energy_mse": 0.0011392977044681512
+    },
+    {
+      "kind": "proton",
+      "event_id": 3624,
+      "raw_hits": 41,
+      "branches": 0,
+      "xz_iou": 0.85,
+      "yz_iou": 0.9,
+      "paired_truth_iou_approx": 0.22916666666666666,
+      "transport_paired_truth_iou_approx": 0.22,
+      "energy_mse": 0.0001781562867364414,
+      "transport_energy_mse": 0.0001911659681258422
+    },
+    {
+      "kind": "proton",
+      "event_id": 4613,
+      "raw_hits": 51,
+      "branches": 1,
+      "xz_iou": 0.6923076923076923,
+      "yz_iou": 0.42424242424242425,
+      "paired_truth_iou_approx": 0.10606060606060606,
+      "transport_paired_truth_iou_approx": 0.013333333333333334,
+      "energy_mse": 0.000302872896177252,
+      "transport_energy_mse": 0.00015300000726967545
+    },
+    {
+      "kind": "proton",
+      "event_id": 6376,
+      "raw_hits": 37,
+      "branches": 1,
+      "xz_iou": 0.34782608695652173,
+      "yz_iou": 0.55,
+      "paired_truth_iou_approx": 0.22857142857142856,
+      "transport_paired_truth_iou_approx": 0.358974358974359,
+      "energy_mse": 0.010114208068501327,
+      "transport_energy_mse": 0.008498148598880862
+    },
+    {
+      "kind": "proton",
+      "event_id": 6411,
+      "raw_hits": 46,
+      "branches": 0,
+      "xz_iou": 0.3448275862068966,
+      "yz_iou": 0.8571428571428571,
+      "paired_truth_iou_approx": 0.08333333333333333,
+      "transport_paired_truth_iou_approx": 0.0,
+      "energy_mse": 0.0004924228124045522,
+      "transport_energy_mse": 0.00012826650735480312
+    },
+    {
+      "kind": "proton",
+      "event_id": 8465,
+      "raw_hits": 51,
+      "branches": 0,
+      "xz_iou": 0.76,
+      "yz_iou": 0.6896551724137931,
+      "paired_truth_iou_approx": 0.0,
+      "transport_paired_truth_iou_approx": 0.0,
+      "energy_mse": 0.00019344098666637636,
+      "transport_energy_mse": 5.011539508129468e-05
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1221,
+      "raw_hits": 52,
+      "branches": 0,
+      "xz_iou": 0.8,
+      "yz_iou": 0.8333333333333334,
+      "paired_truth_iou_approx": 0.0,
+      "transport_paired_truth_iou_approx": 0.0,
+      "energy_mse": 0.00016353595907381909,
+      "transport_energy_mse": 0.00013723241743093673
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 1730,
+      "raw_hits": 39,
+      "branches": 0,
+      "xz_iou": 0.625,
+      "yz_iou": 0.5185185185185185,
+      "paired_truth_iou_approx": 0.17307692307692307,
+      "transport_paired_truth_iou_approx": 0.30952380952380953,
+      "energy_mse": 0.00024766807845946894,
+      "transport_energy_mse": 0.00018466892174812287
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 2912,
+      "raw_hits": 58,
+      "branches": 2,
+      "xz_iou": 0.10714285714285714,
+      "yz_iou": 0.23333333333333334,
+      "paired_truth_iou_approx": 0.0,
+      "transport_paired_truth_iou_approx": 0.1125,
+      "energy_mse": 0.013120679535399157,
+      "transport_energy_mse": 0.010816249299751075
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 3054,
+      "raw_hits": 46,
+      "branches": 0,
+      "xz_iou": 0.7916666666666666,
+      "yz_iou": 0.9130434782608695,
+      "paired_truth_iou_approx": 0.7142857142857143,
+      "transport_paired_truth_iou_approx": 0.8518518518518519,
+      "energy_mse": 0.00014937330663937948,
+      "transport_energy_mse": 8.45820653767203e-05
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 6088,
+      "raw_hits": 47,
+      "branches": 1,
+      "xz_iou": 0.1,
+      "yz_iou": 0.2608695652173913,
+      "paired_truth_iou_approx": 0.0,
+      "transport_paired_truth_iou_approx": 0.08823529411764706,
+      "energy_mse": 0.002346476835207836,
+      "transport_energy_mse": 0.0012535511990396909
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 6406,
+      "raw_hits": 46,
+      "branches": 0,
+      "xz_iou": 0.9565217391304348,
+      "yz_iou": 0.8333333333333334,
+      "paired_truth_iou_approx": 0.7,
+      "transport_paired_truth_iou_approx": 0.7931034482758621,
+      "energy_mse": 0.0001220889839040714,
+      "transport_energy_mse": 6.562149878288029e-05
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 7250,
+      "raw_hits": 44,
+      "branches": 0,
+      "xz_iou": 1.0,
+      "yz_iou": 1.0,
+      "paired_truth_iou_approx": 0.6285714285714286,
+      "transport_paired_truth_iou_approx": 0.6285714285714286,
+      "energy_mse": 3.375371100948055e-05,
+      "transport_energy_mse": 3.3742485342102265e-05
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 7514,
+      "raw_hits": 72,
+      "branches": 0,
+      "xz_iou": 0.21428571428571427,
+      "yz_iou": 0.2413793103448276,
+      "paired_truth_iou_approx": 0.027777777777777776,
+      "transport_paired_truth_iou_approx": 0.0891089108910891,
+      "energy_mse": 0.324396793232301,
+      "transport_energy_mse": 0.09381787926112835
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 9172,
+      "raw_hits": 42,
+      "branches": 0,
+      "xz_iou": 0.9473684210526315,
+      "yz_iou": 0.9,
+      "paired_truth_iou_approx": 0.05263157894736842,
+      "transport_paired_truth_iou_approx": 0.06896551724137931,
+      "energy_mse": 0.00012446327707095955,
+      "transport_energy_mse": 0.0001108319854790904
+    },
+    {
+      "kind": "antiproton",
+      "event_id": 9656,
+      "raw_hits": 51,
+      "branches": 0,
+      "xz_iou": 0.7307692307692307,
+      "yz_iou": 0.84,
+      "paired_truth_iou_approx": 0.32,
+      "transport_paired_truth_iou_approx": 0.40816326530612246,
+      "energy_mse": 0.00034405831573371636,
+      "transport_energy_mse": 0.0001660374820024416
+    }
+  ]
+}

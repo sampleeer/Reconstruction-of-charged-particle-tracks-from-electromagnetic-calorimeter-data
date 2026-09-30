@@ -1,0 +1,8 @@
+{
+  "source": "proton events 0..499, Transportation, monotonic primary z, one truth voxel per plane",
+  "predicted_center_strip_match": 0.9943988797759552,
+  "coordinate_checks": 9998,
+  "median_distance_to_strip_center_mm": 0.5679999999999978,
+  "p95_distance_mm": 1.1213724999999992,
+  "inference_only": "geometry derived from development trajectories; Geant4 geometry file unavailable"
+}

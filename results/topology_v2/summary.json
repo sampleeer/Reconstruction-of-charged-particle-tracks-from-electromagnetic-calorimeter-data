@@ -1,0 +1,75 @@
+{
+  "n": 80,
+  "flags": {
+    "long_tracks_not_two_view_separable": 55,
+    "v1_ambiguous_pairing": 34,
+    "v1_missing_projected_branches": 41,
+    "vertex_error_over_16mm": 31,
+    "detector_miss": 2
+  },
+  "groups": {
+    "all": {
+      "n": 80,
+      "methods": {
+        "v1": {
+          "visible_branches": 96,
+          "recovered_in_views": 98,
+          "view_recall": 0.5104166666666666,
+          "recovered_in_both_views": 35,
+          "both_view_recall": 0.3645833333333333,
+          "mean_unmatched_segments": 1.81875
+        },
+        "segments": {
+          "visible_branches": 96,
+          "recovered_in_views": 128,
+          "view_recall": 0.6666666666666666,
+          "recovered_in_both_views": 47,
+          "both_view_recall": 0.4895833333333333,
+          "mean_unmatched_segments": 2.6625
+        }
+      }
+    },
+    "two_three_long": {
+      "n": 40,
+      "methods": {
+        "v1": {
+          "visible_branches": 45,
+          "recovered_in_views": 52,
+          "view_recall": 0.5777777777777777,
+          "recovered_in_both_views": 17,
+          "both_view_recall": 0.37777777777777777,
+          "mean_unmatched_segments": 2.075
+        },
+        "segments": {
+          "visible_branches": 45,
+          "recovered_in_views": 58,
+          "view_recall": 0.6444444444444445,
+          "recovered_in_both_views": 21,
+          "both_view_recall": 0.4666666666666667,
+          "mean_unmatched_segments": 3.0625
+        }
+      }
+    },
+    "simple_visible": {
+      "n": 2,
+      "methods": {
+        "v1": {
+          "visible_branches": 4,
+          "recovered_in_views": 3,
+          "view_recall": 0.375,
+          "recovered_in_both_views": 0,
+          "both_view_recall": 0.0,
+          "mean_unmatched_segments": 0.75
+        },
+        "segments": {
+          "visible_branches": 4,
+          "recovered_in_views": 5,
+          "view_recall": 0.625,
+          "recovered_in_both_views": 2,
+          "both_view_recall": 0.5,
+          "mean_unmatched_segments": 1.25
+        }
+      }
+    }
+  }
+}
