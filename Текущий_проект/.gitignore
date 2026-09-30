@@ -1,0 +1,9 @@
+data/raw/
+data/derived/
+results/*.joblib
+results/*.log
+results/*.npz
+results/**/*.npz
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
